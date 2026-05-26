@@ -31,7 +31,6 @@ library ValidationLogic {
     }
 
     uint256 internal constant HEALTH_FACTOR_THRESHOLD = 1e18;
-    uint256 internal constant LIQUIDATION_THRESHOLD = 0.95e18;
 
     error ValidationLogic__InvalidAmount();
     error ValidationLogic__ReserveNotActive();
